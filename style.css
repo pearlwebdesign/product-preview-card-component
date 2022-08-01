@@ -63,6 +63,10 @@ h1{
   font-weight: 500;
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+  bottom: 5px; 
+  font-size: 14px; 
+  margin-left: 5px;
 }
 button{
   width: 250px;
