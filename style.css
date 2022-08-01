@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.perfume{
+  display: flex;
+  flex-basis: 31%;
+  position: relative;
+  margin: 30%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.perfume img{
+  height: 455px;
+  border-bottom-left-radius: 10px;
+  border-start-start-radius: 10px;
+  display: block;
+}
+#mobile{
+  display: none;
+}
+.essence{
+  background: hsl(0, 0%, 100%);
+  border-bottom-right-radius: 10px;
+  border-start-end-radius: 10px;
+  padding: 25px;
+}
+.fume{
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  padding: 3px;
+  padding-left: 0;
+}
+
+h1{
+  line-height: 35px;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 35px;
+}
+ h1.price{
+  color: hsl(158, 35%, 37%);
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-size: 35px;
+  display: inline-block;
+}
+ h3{
+  text-decoration: line-through;
+  margin-left: 20px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+button{
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+  background: hsl(158, 35%, 37%);
+  color: #ffffff;
+  border: 1px solid;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+button:hover{
+  background: #000000;
+}
+body{
+  background: hsl(30, 38%, 92%);
+}
+.fa{
+  margin: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width: 700px){
+  .perfume{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  .perfume img{
+    width: 375px;
+    height: 290px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+  h1{
+    line-height: 40px;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  p{
+    padding: 2px;
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .essence{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    padding: 30px;
+  }
+  button{
+    width: 300px;
+    height: 50px;
+    justify-items: center;
+  }
+}
